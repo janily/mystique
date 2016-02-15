@@ -1,0 +1,19 @@
+.mys-doc-section {
+	margin-top: 2em;
+}
+.mys-doc-section:first-child {
+	margin-top: 6em;
+}
+.mys-doc-title {
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 10px;
+}
+.mys-info {
+    border-radius: 3px;
+    padding: 16px 20px;
+    position: relative;
+    margin: 0;
+}
+.mys-content {
+	padding: 20px 0;
+}
