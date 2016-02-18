@@ -1,3 +1,7 @@
+/*! ==========================================================================
+    Mystique
+    一个简单的基于flexbox的布局小组件
+========================================================================== */
 .col {
   -webkit-box-flex: 1;
   -webkit-flex: 1;
@@ -11,6 +15,9 @@
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
+    -webkit-flex-flow: row wrap;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
 }
 
 .col.col-half {

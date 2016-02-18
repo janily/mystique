@@ -157,47 +157,106 @@
 	    		<div class="alert alert-dismissible alert-warning">
 					  <p>上面这些类的意思是，你想要指定的列占12列的比例是多少。比如，你想让当前的列占整个列的七分即7/12，就可以选择 <span class="text-danger">col-7</span>这个类。</p>
 				</div>
-				<div class="mys-content">
-					<div class="cols">
-						<div class="col col-7">
-							<p class="mys-info alert-info">.col-7</p>
+			</div>
+		</div>
+		<div class="mys-content">
+			<div class="cols">
+				<div class="col col-7">
+					<p class="mys-info alert-info">.col-7</p>
+				</div>
+				<div class="col">
+					<p class="mys-info alert-success">1</p>
+				</div>
+				<div class="col">
+					<p class="mys-info alert-warning">1</p>
+				</div>
+				<div class="col">
+					<p class="mys-info alert-success">1</p>
+				</div>
+				<div class="col">
+					<p class="mys-info alert-warning">1</p>
+				</div>
+				<div class="col">
+					<p class="mys-info alert-success">1</p>
+				</div>
+				<div class="col">
+					<p class="mys-info alert-warning">1</p>
+				</div>
+			</div>
+			<pre>
+				<code>
+					&lt;div class="col col-7"&gt;
+						&lt;p class="mys-info alert-info"&gt;.col-7&lt;/p&gt;
+					&lt;/div&gt;
+					&lt;div class="col"&gt;
+						&lt;p class="mys-info alert-info"&gt;1&lt;/p&gt;
+					&lt;/div&gt;
+					...
+					&lt;div class="col"&gt;
+						&lt;p class="mys-info alert-info"&gt;1&lt;/p&gt;
+					&lt;/div&gt;
+				</code>
+			</pre>
+		</div>
+		<div class="mys-doc-section">
+			<div class="mys-doc-title">
+	    		<h2>嵌套</h2>
+	    		<p class="text-info">。</p>
+	    		<ul>
+	    			<li>
+	    				<p class="text-success">.cols-center</p>
+	    			</li>
+    			</ul>
+	    	</div>
+    	</div>
+		<div class="mys-content">
+			<div class="cols">
+				<div class="col col-3">
+					<p class="mys-info alert-warning">居中</p>
+				</div>
+				<div class="cols col col-9">
+					<div class="col col-4">
+						<p class="mys-info alert-warning">嵌套</p>
+					</div>
+					<div class="col col-8 cols">
+						<div class="col col-6">
+							<p class="mys-info alert-warning">嵌套</p>
 						</div>
-						<div class="col">
-							<p class="mys-info alert-success">1</p>
+						<div class="col col-6">
+							<p class="mys-info alert-warning">嵌套</p>
 						</div>
-						<div class="col">
-							<p class="mys-info alert-warning">1</p>
+						<div class="col col-4">
+							<p class="mys-info alert-warning">嵌套</p>
 						</div>
-						<div class="col">
-							<p class="mys-info alert-success">1</p>
+						<div class="col col-4">
+							<p class="mys-info alert-warning">嵌套</p>
 						</div>
-						<div class="col">
-							<p class="mys-info alert-warning">1</p>
-						</div>
-						<div class="col">
-							<p class="mys-info alert-success">1</p>
-						</div>
-						<div class="col">
-							<p class="mys-info alert-warning">1</p>
+						<div class="col col-4">
+							<p class="mys-info alert-warning">嵌套</p>
 						</div>
 					</div>
-					<pre>
-						<code>
-							&lt;div class="col col-7"&gt;
-								&lt;p class="mys-info alert-info"&gt;.col-7&lt;/p&gt;
-							&lt;/div&gt;
-							&lt;div class="col"&gt;
-								&lt;p class="mys-info alert-info"&gt;1&lt;/p&gt;
-							&lt;/div&gt;
-							...
-							&lt;div class="col"&gt;
-								&lt;p class="mys-info alert-info"&gt;1&lt;/p&gt;
-							&lt;/div&gt;
-						</code>
-					</pre>
 				</div>
-    		</div>
-    	</div>
+			</div>
+			<pre>
+				<code>
+				&lt;div class="cols cols-center"&gt;
+					&lt;div class="col"&gt;
+						&lt;p class="mys-info alert-info"&gt;.col-7&lt;/p&gt;
+					&lt;/div&gt;
+				&lt;/div&gt;
+				&lt;div class="cols cols-center"&gt;
+					&lt;div class="col col-third"&gt;
+						&lt;p class="mys-info alert-info"&gt;.col-7&lt;/p&gt;
+					&lt;/div&gt;
+				&lt;/div&gt;
+				&lt;div class="cols cols-right"&gt;
+					&lt;div class="col"&gt;
+						&lt;p class="mys-info alert-info"&gt;.col-7&lt;/p&gt;
+					&lt;/div&gt;
+				&lt;/div&gt;
+				</code>
+			</pre>
+		</div>
     	<div class="mys-doc-section">
     		<div class="mys-doc-title">
 	    		<h2>去除间距</h2>
